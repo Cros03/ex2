@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết người dùng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 350px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .nav-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav-bar a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #007BFF;
+        }
+        .nav-bar a:hover {
+            text-decoration: underline;
+        }
+        .detail-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .detail-item {
+            margin-bottom: 10px;
+        }
+        .detail-item strong {
+            display: inline-block;
+            width: 100px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <a href="#">Home</a>
+            <a href="#">Đăng xuất</a>
+        </div>
+        <div class="detail-container">
+            <h2>Màn hình chi tiết</h2>
+            <div class="detail-item">
+                <strong>Username:</strong> test1
+            </div>
+            <div class="detail-item">
+                <strong>Email:</strong> test1@gmail.com
+            </div>
+            <button>Chỉnh sửa</button>
+        </div>
+        <div class="footer">
+            Lập trình web @01/2024
+        </div>
+    </div>
+</body>
+</html>
